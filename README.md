@@ -47,8 +47,8 @@ We support three benchmarks based on the **SUN RGB-D** dataset.
  * The [Total3DUnderstanding](https://github.com/yinyunie/Total3DUnderstanding)
    benchmark implies detecting objects of 37 categories along with camera pose and room layout estimation.
    Download the preprocessed data as 
-   [train.json](https://github.com/saic-vul/imvoxelnet/releases/download/v1.0/sunrgbd_total_infos_train.json) and 
-   [val.json](https://github.com/saic-vul/imvoxelnet/releases/download/v1.0/sunrgbd_total_infos_val.json) 
+   [train.json](https://github.com/filapro/imvoxelnet/releases/download/v1.0/sunrgbd_total_infos_train.json) and 
+   [val.json](https://github.com/filapro/imvoxelnet/releases/download/v1.0/sunrgbd_total_infos_val.json) 
    and put it to `./data/sunrgbd`. Then run:
    ```shell
    python tools/data_converter/sunrgbd_total.py
